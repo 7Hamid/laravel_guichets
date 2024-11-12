@@ -65,6 +65,7 @@ Route::get('/programmableTickets', [ProgrammableTicketController::class, 'index'
 // Route for showing the form to create a new ticket
 Route::get('/programmableTickets/create', [ProgrammableTicketController::class, 'create'])->name('programmableTickets.create');
 
+
 // Route for storing a new ticket
 Route::post('/programmableTickets', [ProgrammableTicketController::class, 'store'])->name('programmableTickets.store');
 
